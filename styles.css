@@ -1,0 +1,151 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color:rgb(18, 17, 17);
+    color:white;
+    font-family:sans-serif;
+    overflow-x: hidden;
+  }
+  
+  h1, p{
+    text-align:center;
+    background: linear-gradient(to right, rgb(171, 171, 243), rgb(116, 2, 116));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .survey{
+    margin-bottom: 16px;
+  }
+  
+  form{
+    background-color:rgb(32, 30, 30);
+    max-width:600px;
+    height:800px;
+    margin:16px auto;
+    padding:16px;
+    border-radius:6px;
+  }
+
+  .qualification{
+      margin: 16px;
+  }
+  
+  
+.fieldset{
+  margin: 16px;
+}
+
+
+
+  input{
+    display:flex;
+    width:80%;
+    margin: auto;
+    border:none;
+    border-radius:3px
+    
+  }
+
+  #name, #email, #number{
+    height: 32px;
+    background-color: rgb(54, 52, 52);
+    padding: 8px;
+    margin-bottom: 12px;
+    width: 95%;
+  }
+
+  #name-label, #email-label, #number-label{
+    margin-left: 4px;
+  }
+
+  .form-fill{
+    margin: 16px;
+  }
+  
+  label{
+    padding:8px auto;
+    color: rgb(160, 159, 159);
+  }
+
+  .Gender{
+    margin-left: 18px;
+  }
+
+  #dropdown{
+    background-color: rgb(54, 52, 52);
+    color: rgb(246, 236, 236);
+    margin-top: 6px;
+  }
+
+  textarea{
+    background-color: rgb(213, 209, 209);
+    border-radius: 3px;
+    border: none;
+    margin-left:18px;
+  }
+
+  #submit{
+    height: 45px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 40px;
+    background-color:rgb(54, 52, 52);
+    color: rgb(160, 159, 159);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+  }
+
+  #submit:hover{
+    background-color: rgb(160, 159, 159);
+    color:rgb(54, 52, 52) ;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  @media(max-width:760px){
+    form{
+      margin:16px;
+    }
+
+    p{
+      margin:16px;
+    }
+
+    .fieldset{
+      margin: 16px;
+    }
+
+  }
+
+  @media(max-width:640px){
+    h1{
+      font-size:34px;
+      margin: 16px;
+    }
+
+    form{
+      margin: 16px;
+    }
+
+    #description{
+      font-size: 16px;
+      margin:16px;
+    }
+  }
+
+  @media(max-width:450px){
+    h1{
+      font-size: 24px;
+    }
+
+    #description{
+      font-size:16px ;
+    }
+
+    form{
+      margin: 16px;
+    }
+  }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">First freeCodeCamp Project (Survey Form)</h1>
+    <p id="description">This project could not be completed without you. Thank you for your time and patience.</p>
+
+    <form id="survey-form" class="survey">
+      <div class="form-fill">
+      <label id="name-label">Name:
+      <input id="name" type="text" placeholder="Enter your name" required>
+      </label>
+
+      <label id="email-label">Email:
+        <input id="email" type="email" placeholder="Enter your email" required>
+      </label>
+
+      <label id="number-label">Age (Not compulsory):
+      <input id="number" placeholder="select your age" type="number" min="18" max="100">
+      </label>
+    </div> 
+
+
+      <label><span class="Gender">Gender:</span>
+        <input id="gender" type="radio" name="gender" value="gender"><label class="Gender">Male</label>
+        <input id="gender" type="radio" name="gender" value="gender"><label class="Gender"></label>Female</label>
+        <input id="gender" type="radio" name="gender" value="gender"><label class="Gender"></label>Other (Please specify)</label>
+      </label>
+
+      <div class="qualification">
+     <label> What is your highest acadamic qualification?
+     <select id="dropdown">
+      <option>First School Leaving Certificate</option>
+      <option>WASSCE</option>
+      <option>Bachelor's Degree (B.Sc)</option>
+      <option>Master's Degree (M.Sc)</option>
+      <option>Doctorate Degree (PhD)</option>
+    </select>
+    </label>
+  </div>
+
+    <div class="fieldset">
+    <fieldset>
+      <legend>Are you employed?</legend>
+      <input type="radio" id="employ" name="options" value="yes"><label>Yes</label>
+      <input type="radio" id="employ" name="options" value="No"><label>No</label>
+      <input type="radio" id="employ" name="options" value="No"><label>Not yet</label>
+      <input type="radio" id="employ" name="options" value="No"><label>Can't Say</label>
+    </fieldset>
+  </div>
+
+    <input type="checkbox" value="check">
+    <input type="checkbox" value="check">
+
+  <textarea placeholder="Write a message..." required></textarea>
+  <a href="wemoren@gmial.com"><input type="submit" id="submit" value="submit"></a>
+
+    </form>
+
+  </body>
+</html>
